@@ -124,16 +124,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GaussianGroupingEvaluatorFactory.cpp" />
+    <ClCompile Include="GeneticAlgorithm.cpp" />
     <ClCompile Include="GroupingChallenge.cpp" />
     <ClCompile Include="GroupingEvaluator.cpp" />
+    <ClCompile Include="Individual.cpp" />
+    <ClCompile Include="Island.cpp" />
+    <ClCompile Include="KMeans.cpp" />
     <ClCompile Include="Optimizer.cpp" />
     <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GaussianGroupingEvaluatorFactory.h" />
+    <ClInclude Include="GeneticAlgorithm.h" />
     <ClInclude Include="GroupingEvaluator.h" />
+    <ClInclude Include="Individual.h" />
+    <ClInclude Include="Island.h" />
+    <ClInclude Include="KMeans.h" />
     <ClInclude Include="Optimizer.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="PointFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
