@@ -5,6 +5,8 @@
 This is a solution - implementation of an algorithm that, taking points in n-dimensional space and maximum number of clusters, 
 assigns each point to the appropriate group so that the sum of Euclidean distances between points belonging to the same group is as small as possible. 
 
+There is used a genetic algorithm combined with the k-means algorithm.
+
 This was the solution for a competition. 
 [Competition rules and content](https://drive.google.com/file/d/1w13D27TLpCL2e8MmPOOat-XLAerckna6/view?usp=drive_link)
 
